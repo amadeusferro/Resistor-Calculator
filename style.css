@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+.oi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+h1 {
+    font-size: 3rem;
+    padding-top: 20px;
+}
+.container {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+form {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 0px;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+}
+label {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+input{
+    flex: 1;
+    font-size: 1.8rem;
+}
+.btns{
+    background-color: red;
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.calculate{
+    background-color: blueviolet;
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+a:hover{
+    color: rgb(192, 189, 189);
+    transition: .6s all;
+}
+.container img {
+    width: 10%;
+    max-width: 150px;
+    margin: 10px;
+}
+.container p {
+    font-size: 1.8rem;
+    padding: 30px 0px;
+}
+@media screen and (orientation: landscape) {
+    body {
+        display: block;
+    }
+}
+@media screen and (orientation: portrait) {
+    body {
+        display: none;
+    }
+}
